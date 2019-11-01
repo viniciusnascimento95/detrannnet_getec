@@ -17,11 +17,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         webview = (WebView) findViewById(R.id.webview);
         webview.setWebViewClient(new WebViewClient());
-        webview.getSettings().setJavaScriptEnabled(false);
-        webview.loadUrl("https://detrannet.detran.ro.gov.br/");
+        webview.getSettings().setJavaScriptEnabled(true);
+
         //WebSettings webSettings = webview.getSettings();
         //webSettings.setJavaScriptEnabled(true);
-        //webview.loadUrl("https://horsy.com.br");
+        webview.loadUrl("https://sarv.com.br/");
 
     }
 
