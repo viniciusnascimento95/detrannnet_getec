@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         //WebSettings webSettings = webview.getSettings();
         //webSettings.setJavaScriptEnabled(true);
-        webview.loadUrl("https://sarv.com.br/");
+        webview.loadUrl("https://sarv.pm.ro.gov.br/");
 
     }
 
